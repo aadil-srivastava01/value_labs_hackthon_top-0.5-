@@ -16,7 +16,7 @@
  - Similarly, cosine_similarity gets evaluated for all the question-answer combinations
  - Score of your submitted prediction file = mean ( cosine_similarity between distractor vectors for each entry in test.csv)
 
-##Final Model
+## Final Model
 
 Used [GPT-2](https://openai.com/blog/better-language-models/) Small and finetuned it on the test set so as to generate the output.
 More information is available on this [Link]( https://minimaxir.com/2019/09/howto-gpt2/)
